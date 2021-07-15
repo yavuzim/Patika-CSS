@@ -1,0 +1,153 @@
+body{
+    list-style: none;
+    text-decoration: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.gb_Ve{
+    width: 30px;
+    height: 30px;
+}
+.header-title{
+    display: inline-block;
+}
+#rigth, #left{
+    display: inline-block;
+}
+#left{
+    position: relative;
+    left: 10px;
+}
+#left>.header-title{
+    margin-left: 8px;
+}
+#left>.header-title>a{
+    color: black;
+    text-decoration: none;
+}
+#rigth{    
+    margin-left: 1150px;
+}
+#rigth>.header-title{
+    margin-left: 18px;
+}
+#rigth>.header-title>a{
+    color: black;
+    text-decoration: none;
+}
+.square{
+    position: relative;
+    top: 12px;
+}
+#rigth>.header-title>button{
+    width: 80px;
+    height: 32px;
+    color: white;
+    background-color: #3776f3;
+    border-radius: 5px;
+    overflow: hidden;
+    outline: none;
+    border: 0;
+}
+#left>.header-title>a:hover , #rigth>.header-title>a:hover{
+    text-decoration: underline;
+}
+#content{
+    width:700px;
+    height: 250px;
+    position: relative;
+    top: 100px;
+    margin: 80px 0 0 480px;
+}
+#logo{
+    position: relative;
+    left: 170px;
+}
+#text-field{
+    width: 570px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    border: 1px solid rgb(156, 151, 151);
+    top: 14px;
+}
+#search{
+    margin-top: 15px;
+    margin-left: 12px;
+    display: inline-block;
+}
+#textbox{
+    display: inline-block;
+    width: 480px;
+}
+#textbox>input{
+    width: 480px;
+    outline: 0;
+    border: 0;
+}
+#microphone{
+    display: inline-block;
+}
+#microphone>img{
+    width: 25px;
+    height: 25px;
+   position: relative;
+   top: 8px;
+   left: 5px;
+}
+#button-field{
+    position: relative;
+    top: 45px;
+    left:155px;
+    width: 310px;
+    height: 100px;
+}
+#button-field>button{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    outline: 0;
+    font-size: 15px;
+    border: 0;
+    color: rgb(112, 108, 108);
+}
+#button-field>button:hover{
+   cursor: pointer;
+}
+#footer-field{
+    width: 100%;
+    height: 38px;
+    background-color: rgb(223, 219, 219);
+    margin-top: 343px;
+}
+#footer-rigth,#footer-left{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+#footer-rigth{
+    left: 10px;
+}
+#footer-left{
+    left:980px;
+}
+#footer-rigth a,#footer-left a{
+    color: rgb(112, 108, 108);
+    text-decoration: none;
+}
+#footer-rigth a:hover,#footer-left a:hover{
+    text-decoration: underline;
+}
+.footer-title{
+    display: inline-block;
+    margin-left: 18px;
+}
